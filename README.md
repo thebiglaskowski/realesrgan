@@ -4,6 +4,8 @@ AI-Powered Image & Video Enhancement with Intelligent Auto-Enhancement
 
 A production-ready interface for Real-ESRGAN featuring AI-powered settings recommendation, batch processing, GPU selection, and comprehensive quality metrics.
 
+![Screenshot](assets/screenshot.png)
+
 ## Features
 
 ### AI Auto-Enhancement
