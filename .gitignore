@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Application specific
+inputs/
+outputs/
+*.log
+settings.json
+presets.json
+.env
+
+# Keep .env.example (configuration template)
+!.env.example
+
+# Backups
+backups/
+
+# Model weights (large files - auto-downloaded)
+Real-ESRGAN/weights/*.pth
+gfpgan/weights/*.pth
+*.pth
+
+# Gradio
+.gradio/
+flagged/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*_backup.py
+temp_*.png
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Real-ESRGAN build artifacts
+Real-ESRGAN/.eggs/
+Real-ESRGAN/build/
+Real-ESRGAN/dist/
+Real-ESRGAN/*.egg-info/
+Real-ESRGAN/.vscode/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
